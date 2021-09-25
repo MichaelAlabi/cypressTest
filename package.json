@@ -1,0 +1,24 @@
+{
+  "name": "cyautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mocha": "^9.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "mochawesome": "^6.2.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    
+    "headTest": "npm run test -- --headed"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "Michael Alabi",
+  "license": "ISC"
+}

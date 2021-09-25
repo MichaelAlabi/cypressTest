@@ -1,0 +1,154 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2021-07-24T06:20:33.723Z",
+    "end": "2021-07-24T06:20:51.342Z",
+    "duration": 17619,
+    "testsRegistered": 4,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c435f617-3fdb-4e5a-bea3-1b8de03063ad",
+      "title": "",
+      "fullFile": "cypress/integration/example/broadbandL2.js",
+      "file": "cypress/integration/example/broadbandL2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "check service status tile on L2 is clickable and redirected to the correct endpoint",
+          "fullTitle": "check service status tile on L2 is clickable and redirected to the correct endpoint",
+          "timedOut": null,
+          "duration": 4394,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('#_service-status').click();\ncy.url().should('eq', 'https://care.virginmedia.com/care/service-status');",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_service-status`, but never found it.",
+            "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_service-status`, but never found it.\n    at Context.eval (http://localhost:52198/__cypress/tests?p=cypress/integration/example/broadbandL2.js:15:6)",
+            "diff": null
+          },
+          "uuid": "be3c8b17-2af9-499c-8038-1ac29ea93867",
+          "parentUUID": "c435f617-3fdb-4e5a-bea3-1b8de03063ad",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "my broadband speed tile on L2 is clickable and redirected to the correct endpoint",
+          "fullTitle": "my broadband speed tile on L2 is clickable and redirected to the correct endpoint",
+          "timedOut": null,
+          "duration": 4393,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('#_my-broadband-speed').click();\ncy.url().should('eq', 'https://www.virginmedia.com/help/virgin-media-how-to-check-broadband-speed');",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_my-broadband-speed`, but never found it.",
+            "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_my-broadband-speed`, but never found it.\n    at Context.eval (http://localhost:52198/__cypress/tests?p=cypress/integration/example/broadbandL2.js:19:6)",
+            "diff": null
+          },
+          "uuid": "96a1aacb-1aee-48a8-a47e-f4dd9063c7d6",
+          "parentUUID": "c435f617-3fdb-4e5a-bea3-1b8de03063ad",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "billing and payments tile on L2 is clickable and redirected to the correct endpoint",
+          "fullTitle": "billing and payments tile on L2 is clickable and redirected to the correct endpoint",
+          "timedOut": null,
+          "duration": 4371,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('#_billing-and-payments-1').click();\ncy.url().should('eq', 'https://www.virginmedia.com/help/billing-and-payments');",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_billing-and-payments-1`, but never found it.",
+            "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_billing-and-payments-1`, but never found it.\n    at Context.eval (http://localhost:52198/__cypress/tests?p=cypress/integration/example/broadbandL2.js:23:6)",
+            "diff": null
+          },
+          "uuid": "d95d6ac9-7588-4326-860d-8d4fa5e9681e",
+          "parentUUID": "c435f617-3fdb-4e5a-bea3-1b8de03063ad",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "change package tile on L2 is clickable and redirected to the correct endpoint",
+          "fullTitle": "change package tile on L2 is clickable and redirected to the correct endpoint",
+          "timedOut": null,
+          "duration": 4396,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "cy.get('#_change-package-broadband').click();\ncy.url().should('eq', 'https://www.virginmedia.com/care/change-package-broadband');",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_change-package-broadband`, but never found it.",
+            "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#_change-package-broadband`, but never found it.\n    at Context.eval (http://localhost:52198/__cypress/tests?p=cypress/integration/example/broadbandL2.js:27:6)",
+            "diff": null
+          },
+          "uuid": "2e648c2a-b543-492f-bb92-4fabd0d1f164",
+          "parentUUID": "c435f617-3fdb-4e5a-bea3-1b8de03063ad",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "be3c8b17-2af9-499c-8038-1ac29ea93867",
+        "96a1aacb-1aee-48a8-a47e-f4dd9063c7d6",
+        "d95d6ac9-7588-4326-860d-8d4fa5e9681e",
+        "2e648c2a-b543-492f-bb92-4fabd0d1f164"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 17554,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
